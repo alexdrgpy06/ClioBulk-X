@@ -1,0 +1,12 @@
+target/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+.env
+.idea
+.vscode
+cliobulk-core/target/
+cliobulk_pro_preview.png
+cliobulk_x_preview.png
+cliobulk_x_desktop.png

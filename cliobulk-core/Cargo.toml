@@ -1,0 +1,21 @@
+[package]
+name = "cliobulk-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = { version = "0.25", features = ["jpeg", "png", "webp", "tiff"] }
+imageproc = "0.25"
+rawloader = "0.37"
+rayon = "1.10"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"
+num_cpus = "1.16"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = 'abort'
