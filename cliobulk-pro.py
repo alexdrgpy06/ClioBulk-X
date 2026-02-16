@@ -1,21 +1,10 @@
 """
 ---------------------------------------------------------------------------------------
-ClioBulk-X: Professional Edition GUI
----------------------------------------------------------------------------------------
-A high-fidelity, PySide6-based digital asset management and processing application.
-Designed for professional photographers requiring high-performance batch workflows 
-on large-scale RAW image datasets.
-
-KEY ARCHITECTURAL FEATURES:
-- Asynchronous Native Orchestration: Multi-threaded execution using the Rust core.
-- Scalable Queue Management: Handles thousands of files using JSON manifests to 
-  bypass OS command-line length limitations.
-- Modern UX/UI: Hardware-accelerated rendering with a "Dark Mode" aesthetic.
-- Enhanced Metadata Handling: Support for complex filter chains and asset tagging.
-
-@author Alejandro Ramírez
-@version 2.2.0
-@license MIT
+Author: Alejandro Ramírez
+Project: ClioBulk-X
+Logic: High-fidelity PySide6-based GUI for professional batch RAW image processing.
+Implements asynchronous native orchestration using a Rust core, manifest-based IPC 
+to bypass shell buffer limits, and a hardware-accelerated modern UX.
 ---------------------------------------------------------------------------------------
 """
 
